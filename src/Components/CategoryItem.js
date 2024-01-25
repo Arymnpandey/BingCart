@@ -3,7 +3,7 @@ import Dropdown from "./Dropdown";
 import DropdownMenu from "./DropdownMenu";
 
 function CategoryItem(props) {
-  // console.log(props.item);
+  
   const [hover, setHover] = useState(false);
 
   return (

@@ -1,4 +1,4 @@
-// Typeahead.js
+
 import React, { useState } from "react";
 
 const Typeahead = ({ suggestions }) => {
@@ -10,7 +10,7 @@ const Typeahead = ({ suggestions }) => {
     const inputValue = e.target.value;
     setInputValue(inputValue);
 
-    // Filter suggestions based on input value
+    
     const filtered = suggestions.filter((suggestion) =>
       suggestion.toLowerCase().includes(inputValue.toLowerCase())
     );

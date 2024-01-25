@@ -5,7 +5,7 @@ import NestedDropdownMenu from "./NestedDropdownMenu";
 function DropdownMenu(props) {
   const [hover, setHover] = useState(false);
   const [name, setName] = useState("");
-  // console.log(props.item.subCategory.nestedItems);
+ 
   return (
     <div className="w-[200px] bg-white border-2 z-50 absolute mt-6 -ml-32 flex-col text-black rounded-md py-4">
       {props.subCategory?.map((item) => {
